@@ -10,7 +10,7 @@ import PlanetsTableSearch from '@/components/planets/planets-table-search';
 import PlanetsTableHeader from '@/components/planets/planets-table-header';
 import PlanetsTableNavigation from '@/components/planets/planets-table-navigation';
 import PlanetsTableLoading from '@/components/planets/planets-table-loading';
-import PlanetsTableEmpty from './planets-table-empty';
+import PlanetsTableEmpty from '@/components/planets/planets-table-empty';
 
 export default function PlanetsTable() {
   const { page, inputValue, setSelectedPlanet, setOpenModal } = useStore();

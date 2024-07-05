@@ -10,7 +10,7 @@ export default function PlanetsTableSearch() {
   };
 
   return (
-    <div className="relative max-w-xs">
+    <div className="relative max-w-xs float-right">
       <label className="sr-only">Search</label>
       <input
         type="text"

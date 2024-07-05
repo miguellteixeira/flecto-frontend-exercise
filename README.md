@@ -1,51 +1,73 @@
-# Flecto: Frontend Exercise
+# 💫 Star Wars
 
-Welcome!
+A simple landing page to see all the planets from Star Wars.
 
-Following our previous conversation, we’d like to invite you to our technical challenge where you can showcase all your talents. We know this we’ll be a walk-in-the-park and respect your schedule so rest assured that it won’t take too much of your spare time.
+## Tech Stack
 
-## **Overview**
+- React 18
+- Next 14
+- Tailwind CSS
+- TanStack Query
+- Ky
+- Zustand
+- Flowbite
+- Typescript
+- Vitest
 
-The main goal of this exercise is for you to do a single page showing a paginated list (either as a table, list, or cards) of weird-named planets from Star Wars. You’ll consume a simple API from [SWAPI](https://swapi.dev/documentation#intro) which you’ll then treat and show.
+## Usage
 
-Feel free to use any components’ library and any Jedi mind tricks you like.
+Install dependencies
 
-Let's go!
+```bash
+yarn install
+```
 
-## **Task requirements**
-The main requirements are:
-- The user should be able to search for planets;
-- The user should be able to paginate the list of planets;
-- The user should be able to see details about the selected planet.
+### Development
 
-API Documentation: https://swapi.dev/documentation#intro
+Run
 
-## **Delivery instructions**
-Fork this repository to your own github profile and use it to develop your solution. After done, just send us the link for your forked repository.
+```bash
+yarn dev
+```
 
-## **What we expect**
-⚛️ React and TypeScript
+Then visit http://localhost:3000
 
-🐞 Unit / integration tests
+### Linting
 
-💅 A nice design using CSS
+Run
 
-📄 Clear README.md
+```bash
+yarn lint
+```
 
-## What w**e’d love to see**
+### Testing
 
-🔥 NextJS
+Run
 
-🔥 TanStack Query / SWR
+```bash
+yarn test
+```
 
-## What would be nice
-If you have the time, you might want to add these to your project:
+### Build
 
-🎨 Responsive layout
+```bash
+yarn build
+```
 
-📱 Mobile suppport
+## To-do list
 
-## **Additional information**
-Feel free to reach out if you have any question and don’t hesitate regardless of how simple or silly your questions might look like. We are here to provide you all the conditions for you to shine ✨
+### Features
 
-There’s no deadline only good sense.
+- [ ] Responsive layout
+- [ ] Mobile Support
+
+### Non-functional Requirements
+
+- [ ] Move magic numbers into global constants
+- [ ] Unit and integration tests
+
+### Enhacements
+
+- [ ] Set a fixed table column width to avoid layout shifts
+- [ ] Set a fixed table height when searching for a single planet to avoid layout shifts
+- [ ] Format long numbers to a more human readable form

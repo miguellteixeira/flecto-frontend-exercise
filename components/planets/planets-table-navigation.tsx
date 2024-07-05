@@ -22,7 +22,7 @@ export default function PlanetsTableNavigation() {
             <span className="text-sm font-normal text-gray-500 dark:text-gray-400 mb-4 md:mb-0 block w-full md:inline md:w-auto">
               Showing{' '}
               <span className="font-semibold text-gray-900 dark:text-white">
-                1-{data.results.length}
+                {page * data.results.length - 9}-{page * data.results.length}
               </span>{' '}
               of{' '}
               <span className="font-semibold text-gray-900 dark:text-white">
